@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romans Pizza - Authentic Italian Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+   //  Navigation 
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">Romans Pizza</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    // Hero Section 
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="public/logo.png" alt="Romans Pizza Logo" class="hero-logo">
+            <h1 class="hero-title">Authentic Italian Pizza</h1>
+            <p class="hero-subtitle">Fire-baked perfection in every slice</p>
+            <a href="#menu" class="btn btn-primary">View Menu</a>
+        </div>
+    </section>
+
+   //  About Section 
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At Romans Pizza, we bring the authentic taste of Italy to your table. Our pizzas are crafted with passion, using traditional recipes passed down through generations and the finest ingredients imported directly from Italy.</p>
+                    <p>Every pizza is fire-baked in our custom Italian oven, creating that perfect crispy crust and smoky flavor that makes our pizzas unforgettable.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Fresh Ingredients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Pizzas</h2>
+            <div class="menu-grid">
+           
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Blue Roman Margherita</h3>
+                        <span class="price">$14</span>
+                    </div>
+                    <p class="menu-item-description">Fresh mozzarella, San Marzano tomatoes, basil, extra virgin olive oil</p>
+                    <span class="tag">Classic</span>
+                </div>
+
+         
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Diavola Pizzola</h3>
+                        <span class="price">$16</span>
+                    </div>
+                    <p class="menu-item-description">Spicy salami, mozzarella, tomato sauce, chili flakes</p>
+                    <span class="tag tag-spicy">Spicy</span>
+                </div>
+
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Quattroini Formaggini</h3>
+                        <span class="price">$17</span>
+                    </div>
+                    <p class="menu-item-description">Mozzarella, gorgonzola, parmesan, fontina cheese</p>
+                    <span class="tag tag-premium">Premium</span>
+                </div>
+
+             
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Prosciutto e Rucola</h3>
+                        <span class="price">$18</span>
+                    </div>
+                    <p class="menu-item-description">Prosciutto di Parma, arugula, parmesan shavings, cherry tomatoes</p>
+                    <span class="tag tag-premium">Premium</span>
+                </div>
+
+          
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Vegetariana</h3>
+                        <span class="price">$15</span>
+                    </div>
+                    <p class="menu-item-description">Grilled vegetables, mozzarella, tomato sauce, fresh herbs</p>
+                    <span class="tag tag-veggie">Vegetarian</span>
+                </div>
+
+            
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Pepperoni Supreme</h3>
+                        <span class="price">$16</span>
+                    </div>
+                    <p class="menu-item-description">Double pepperoni, mozzarella, tomato sauce, oregano</p>
+                    <span class="tag">Classic</span>
+                </div>
+
+            
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>6 - 7 Slices Deal</h3>
+                        <span class="price">$5</span>
+                    </div>
+                    <p class="menu-item-description">Mixed mushrooms, truffle oil, mozzarella, parmesan, thyme</p>
+                    <span class="tag">Classic</span>
+                </div>
+
+               
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h3>Blazin' Roman</h3>
+                        <span class="price">$17</span>
+                    </div>
+                    <p class="menu-item-description">Grilled chicken, BBQ sauce, red onions, mozzarella, cilantro</p>
+                    <span class="tag tag-spicy">Spicy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Contact Section 
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>487 Newport Street<br>San Diego, CA 10013</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Hours</h3>
+                        <p>Mon-Thu: 11am - 10pm<br>Fri-Sat: 11am - 11pm<br>Sunday: 12pm - 9pm</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Contact</h3>
+                        <p>Phone: (001) 067-4567<br>Email: info@romanspizza.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone Number">
+                    <textarea placeholder="Message" rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+     Footer 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="public/logo.png" alt="Romans Pizza Logo" class="footer-logo">
+                <p>&copy; 2025 Romans Pizza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
